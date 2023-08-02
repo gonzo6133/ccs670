@@ -1,0 +1,49 @@
+HeadNode:
+  InstanceType: c5a.2xlarge
+  Ssh:
+    KeyName: karla
+  Networking:
+    SubnetId: subnet-02131e4f
+  LocalStorage:
+    RootVolume:
+      Size: 40
+      VolumeType: gp3
+  Iam:
+    AdditionalIamPolicies:
+      - Policy: arn:aws:iam::aws:policy/AmazonSSMManagedInstanceCore
+      - Policy: arn:aws:iam::aws:policy/AmazonS3ReadOnlyAccess
+  Dcv:
+    Enabled: true
+  Imds:
+    Secured: true
+Scheduling:
+  Scheduler: slurm
+  SlurmQueues:
+    - Name: compute
+      ComputeResources:
+        - Name: hpc6a
+          MinCount: 0
+          MaxCount: 64
+          Instances:
+            - InstanceType: hpc6a.48xlarge
+          Efa:
+            Enabled: true
+            GdrSupport: true
+      Networking:
+        SubnetIds:
+          - subnet-02131e4f
+        PlacementGroup:
+          Enabled: true
+      Iam:
+        AdditionalIamPolicies:
+          - Policy: arn:aws:iam::aws:policy/AmazonS3ReadOnlyAccess
+      ComputeSettings:
+        LocalStorage:
+          RootVolume:
+            VolumeType: gp3
+  SlurmSettings: {}
+Region: us-east-2
+Image:
+  Os: alinux2
+Imds:
+  ImdsSupport: v2.0
