@@ -15,9 +15,9 @@ export DD_CLIENT_TOKEN=
 export DD_ORG_ID=125af26c-404a-11ee-xxxxxx
 export DD_API_KEY=3f0ac0bc2b1294b528xxxxxx
 export DD_APPLICATION_ID=
-export DD_ENV=rum-config-js-lab
-export DD_HOSTNAME=rum-config-js-lab-host
-export DD_APP_KEY=971ff3064950c63ba0030xxxxxxx
+export DD_ENV=rum-confxxxxx
+export DD_HOSTNAME=rum-configxxx
+export DD_APP_KEY=971ff3064950xxxxxx
 export DD_ORG_NAME=m3yonh8ehxxxx
 export DD_TAGS=env:rum-confixxxxxx
 root@lab-host:~/lab# 
