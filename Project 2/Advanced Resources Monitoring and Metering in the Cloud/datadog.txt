@@ -1,7 +1,7 @@
 Your Datadog credentials for logging in to https://app.datadoghq.com are as follows:
 Username:       u7ja2q0axc@ddtraining.datadoghq.com
-Password:       2b6d:3%Da5
-API Key:        3f0ac0bc2b1294b528ee81879cc246fc
+Password:       xxxxxxxxxxxx
+API Key:        3f0ac0bc2b1294b528ee8187xxxxx
 Account expires in 13 days and 11 hours
 
 This training account is a trial account that's available for 14 days. After the trial account expires, you will be automatically provisioned a new trial account that you can use to continue your learning. These credentials will only work for Datadog Learning Center labs.
@@ -12,12 +12,12 @@ If these lab credentials do not work, click the Help tab above this lab terminal
 
 root@lab-host:~/lab# env | sed -n '/DD_/s/.*/export &/p'
 export DD_CLIENT_TOKEN=
-export DD_ORG_ID=125af26c-404a-11ee-a4b5-da7ad0900002
-export DD_API_KEY=3f0ac0bc2b1294b528ee81879cc246fc
+export DD_ORG_ID=125af26c-404a-11ee-xxxxxx
+export DD_API_KEY=3f0ac0bc2b1294b528xxxxxx
 export DD_APPLICATION_ID=
 export DD_ENV=rum-config-js-lab
 export DD_HOSTNAME=rum-config-js-lab-host
-export DD_APP_KEY=971ff3064950c63ba00307b99a6f8cb8febeec0d
-export DD_ORG_NAME=m3yonh8ehbqa-LMS
-export DD_TAGS=env:rum-config-js-lab
+export DD_APP_KEY=971ff3064950c63ba0030xxxxxxx
+export DD_ORG_NAME=m3yonh8ehxxxx
+export DD_TAGS=env:rum-confixxxxxx
 root@lab-host:~/lab# 
