@@ -1,0 +1,11 @@
+workshop:~/environment/section1 $ terraform output
+URL_for_site = "http://52.42.62.127:3000"
+instance_id_for_advertisements = "i-02c496fd2a216132e"
+instance_id_for_db = "i-0a5371c985e9e2035"
+instance_id_for_discounts = "i-0b6e51d864077be64"
+instance_id_for_frontend = "i-00bae34b636b90c5c"
+ssh_to_advertisements = "ssh -i ./ecommerceapp ubuntu@18.236.131.45"
+ssh_to_db = "ssh -i ./ecommerceapp ubuntu@52.11.84.62"
+ssh_to_discounts = "ssh -i ./ecommerceapp ubuntu@54.149.155.22"
+ssh_to_frontend = "ssh -i ./ecommerceapp bitnami@52.42.62.127"
+workshop:~/environment/section1 $ 

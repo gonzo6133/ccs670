@@ -1,0 +1,62 @@
+workshop:~/environment/section1 $ ssh -i ./ecommerceapp bitnami@52.42.62.127
+Linux frontend 4.19.0-14-cloud-amd64 #1 SMP Debian 4.19.171-2 (2021-01-30) x86_64
+
+The programs included with the Debian GNU/Linux system are free software;
+the exact distribution terms for each program are described in the
+individual files in /usr/share/doc/*/copyright.
+
+Debian GNU/Linux comes with ABSOLUTELY NO WARRANTY, to the extent
+permitted by applicable law.
+       ___ _ _                   _
+      | _ |_) |_ _ _  __ _ _ __ (_)
+      | _ \ |  _| ' \/ _` | '  \| |
+      |___/_|\__|_|_|\__,_|_|_|_|_|
+  
+  *** Welcome to the Bitnami Ruby 2.7.2-68                              ***
+  *** Documentation:  https://docs.bitnami.com/aws/infrastructure/ruby/ ***
+  ***                 https://docs.bitnami.com/aws/                     ***
+  *** Bitnami Forums: https://community.bitnami.com/                    ***
+bitnami@frontend:~$ ls
+bitnami_credentials  htdocs  stack
+bitnami@frontend:~$ cd /app
+-bash: cd: /app: No such file or directory
+bitnami@frontend:~$ cd ~/app
+-bash: cd: /home/bitnami/app: No such file or directory
+bitnami@frontend:~$ exit
+logout
+Connection to 52.42.62.127 closed.
+workshop:~/environment/section1 $ ssh_to_frontend
+bash: ssh_to_frontend: command not found
+workshop:~/environment/section1 $ ssh -i ./ecommerceapp bitnami@52.42.62.127
+Linux frontend 4.19.0-14-cloud-amd64 #1 SMP Debian 4.19.171-2 (2021-01-30) x86_64
+
+The programs included with the Debian GNU/Linux system are free software;
+the exact distribution terms for each program are described in the
+individual files in /usr/share/doc/*/copyright.
+
+Debian GNU/Linux comes with ABSOLUTELY NO WARRANTY, to the extent
+permitted by applicable law.
+       ___ _ _                   _
+      | _ |_) |_ _ _  __ _ _ __ (_)
+      | _ \ |  _| ' \/ _` | '  \| |
+      |___/_|\__|_|_|\__,_|_|_|_|_|
+  
+  *** Welcome to the Bitnami Ruby 2.7.2-68                              ***
+  *** Documentation:  https://docs.bitnami.com/aws/infrastructure/ruby/ ***
+  ***                 https://docs.bitnami.com/aws/                     ***
+  *** Bitnami Forums: https://community.bitnami.com/                    ***
+Last login: Tue Aug 22 03:16:37 2023 from 35.89.240.50
+bitnami@frontend:~$ cd /app
+-bash: cd: /app: No such file or directory
+bitnami@frontend:~$ 
+
+
+
+
+bitnami@frontend:~$ mkdir /app
+mkdir: cannot create directory ‘/app’: File exists
+bitnami@frontend:~$ dir -a /app
+/app
+bitnami@frontend:~$ cd /app
+-bash: cd: /app: No such file or directory
+bitnami@frontend:~$ 
